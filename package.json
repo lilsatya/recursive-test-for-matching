@@ -1,0 +1,22 @@
+{
+  "name": "is-matching-poc",
+  "version": "0.0.1",
+  "description": "Proof of concept for IS Matching System",
+  "main": "index.js",
+  "repository": "none",
+  "author": "Lingga Satya",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.5.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "nodemon": "^1.19.1"
+  }
+}
